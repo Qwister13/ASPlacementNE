@@ -1,11 +1,17 @@
-﻿using System;
+﻿using Siticone.UI.WinForms.Suite;
+using System;
+using System.Collections.Generic;
 using System.Drawing;
+using System.IO;
 using System.Windows.Forms;
 
 namespace Interface1
 {
     public partial class Main : Form
     {
+        private InfoPoints infoPointsForm = new InfoPoints();
+
+        List<Point> Points { get; set; }
         public Main()
         {
             InitializeComponent();
@@ -28,13 +34,13 @@ namespace Interface1
             fileItem.DropDownItems.Add(OpenBD);
 
             //Подпункт меню Проект
-            ToolStripMenuItem OpenPlan = new ToolStripMenuItem("Открыть чертеж помещения");
+            /*ToolStripMenuItem OpenPlan = new ToolStripMenuItem("Открыть план помещения");
             OpenPlan.Click += OpenPlan_Click;
             OpenPlan.ShortcutKeys = Keys.Control | Keys.Y;
-            fileItem.DropDownItems.Add(OpenPlan);
+            fileItem.DropDownItems.Add(OpenPlan);*/
 
             //Подпункт меню Проект
-            ToolStripMenuItem OpenScheme = new ToolStripMenuItem("Открыть схему подключения");
+            ToolStripMenuItem OpenScheme = new ToolStripMenuItem("Открыть план помещения");
             OpenScheme.Click += OpenScheme_Click;
             OpenScheme.ShortcutKeys = Keys.Control | Keys.E;
             fileItem.DropDownItems.Add(OpenScheme);
@@ -66,7 +72,7 @@ namespace Interface1
 
             //Подпункт меню Проектные данные
             ToolStripMenuItem DataPoint = new ToolStripMenuItem("Данные о контрольных точках");
-            DataPoint.Click += DataPoint_Click;
+            DataPoint.Click += openToolStripMenuItem_Click;
             fileItemData.DropDownItems.Add(DataPoint);
             menuStrip1.Items.Add(fileItemData);
 
@@ -89,7 +95,35 @@ namespace Interface1
             menuStrip1.Items.Add(Referens);
 
         }
+        private void openToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog openFileDialog = new OpenFileDialog();
+            openFileDialog.Filter = "Файл изображения (*.bmp;*.jpg;*.jpeg;*.gif;*.png)|*.bmp;*.jpg;*.jpeg;*.gif;*.png|Все файлы (*.*)|*.*";
+            openFileDialog.FilterIndex = 1;
 
+            if (openFileDialog.ShowDialog() == DialogResult.OK)
+            {
+                try
+                {
+                    pictureBox1.Load(openFileDialog.FileName);
+                    pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
+
+                    string pointsFilePath = Path.Combine(Path.GetDirectoryName(openFileDialog.FileName), Path.GetFileNameWithoutExtension(openFileDialog.FileName) + "_points.txt");
+                    if (File.Exists(pointsFilePath))
+                    {
+                        infoPointsForm.LoadPointsFromFile(pointsFilePath);
+                    }
+                }
+                catch
+                {
+                    MessageBox.Show("Невозможно открыть выбранный файл", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+        }
+        private void infoPointsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            infoPointsForm.ShowDialog();
+        }
         private void Form1_Load(object sender, EventArgs e)
         {
 
@@ -173,6 +207,7 @@ namespace Interface1
             openDlg.FilterIndex = 1;
             openDlg.Title = "Открытие файла плана помещения";
 
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
 
             if (openDlg.ShowDialog() == DialogResult.Cancel)
             {

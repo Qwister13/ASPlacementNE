@@ -17,6 +17,7 @@ namespace Interface1
 {
     public partial class GetPoints : Form
     {
+        private PointStorage pointStorage = new PointStorage();
         MyPoints.DrawingPoint newPoint = new DrawingPoint();
 
         List<Point> selectedPoints = new List<Point>();
@@ -30,8 +31,9 @@ namespace Interface1
             menuStrip2.Items.Add(OpenNewFile);
 
             ToolStripMenuItem SaveNewFile = new ToolStripMenuItem("Сохранить файл");
-            SaveNewFile.Click += SaveFile;
+            SaveNewFile.Click += SavePointsToFile;
             menuStrip2.Items.Add(SaveNewFile);
+
             DoubleBuffered = true;
         }
 
@@ -43,10 +45,10 @@ namespace Interface1
 
             OpenFileDialog openDlg = new OpenFileDialog();
 
-            openDlg.Filter = "Scheme Location (*.jpg)|*.jpg|План помещения (*.png)|*.png";
+            openDlg.Filter = "План помещения (*.jpg)|*.jpg|План помещения (*.png)|*.png";
             openDlg.DefaultExt = "*.jpg |*.jpg ";
             openDlg.FilterIndex = 1;
-            openDlg.Title = "Open file";
+            openDlg.Title = "Открытие файла плана помещения";
 
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
 
@@ -120,7 +122,34 @@ namespace Interface1
 
         }
 
-        private void SaveFile(object sender, EventArgs e)
+        private void SavePointsToFile(object sender, EventArgs e)
+        {
+            if (myPoints.Count == 0)
+            {
+                MessageBox.Show("Нет точек для сохранения", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            SaveFileDialog saveFileDialog = new SaveFileDialog();
+            saveFileDialog.Filter = "Текстовый файл (*.txt)|*.txt";
+            saveFileDialog.Title = "Сохранить точки в файл";
+
+            if (saveFileDialog.ShowDialog() == DialogResult.OK)
+            {
+                using (StreamWriter sw = new StreamWriter(saveFileDialog.FileName))
+                {
+                    foreach (var point in myPoints)
+                    {
+                        sw.WriteLine($"{point.X};{point.Y}");
+                    }
+                }
+
+                MessageBox.Show("Точки сохранены в файл", "Успех", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+
+        }
+
+        /*private void SaveFile(object sender, EventArgs e)
         {
             SaveFileDialog saveDlg = new SaveFileDialog();
             string filename = "";
@@ -134,7 +163,7 @@ namespace Interface1
             if (retval == DialogResult.OK)
                 filename = saveDlg.FileName;
             else
-                return;
+                return;              
 
             RichTextBoxStreamType stream_type;
             if (saveDlg.FilterIndex == 2)
@@ -143,7 +172,7 @@ namespace Interface1
                 stream_type = RichTextBoxStreamType.RichText;
 
             MessageBox.Show("Файл сохранен");
-        }
+        }*/
 
         protected override void OnMouseClick(MouseEventArgs e)
         {
@@ -167,7 +196,6 @@ namespace Interface1
                 listBox1.Items.Remove("X:" + mouseEventArgs.X + " Y: " + mouseEventArgs.Y);
             }
             listBox1.Items.Add("X:" + mouseEventArgs.X + " Y: " + mouseEventArgs.Y);
-
             myPoints.Add(mouseEventArgs.Location);
             (sender as Control).Invalidate();
 
@@ -181,7 +209,6 @@ namespace Interface1
                 if (selectedPoints.Contains(point)) continue; 
                 g.FillEllipse(new SolidBrush(Color.Red), new Rectangle(point, new Size(5, 5)));
             }
-
             foreach (var selectedPoint in selectedPoints)
             {     
                 g.FillEllipse(new SolidBrush(Color.Green), new Rectangle(selectedPoint, new Size(6, 6)));

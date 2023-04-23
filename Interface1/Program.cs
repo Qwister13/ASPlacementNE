@@ -16,7 +16,7 @@ namespace Interface1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new GetPoints());
+            Application.Run(new Main());
         }
     }
 }
