@@ -1,0 +1,86 @@
+C:\Users\Наиль\Desktop\LABS_OOP\Interface1\Interface1\bin\Debug\Interface1.exe.config
+C:\Users\Наиль\Desktop\LABS_OOP\Interface1\Interface1\bin\Debug\Interface1.exe
+C:\Users\Наиль\Desktop\LABS_OOP\Interface1\Interface1\bin\Debug\Interface1.pdb
+C:\Users\Наиль\Desktop\LABS_OOP\Interface1\Interface1\obj\Debug\Interface1.csproj.AssemblyReference.cache
+C:\Users\Наиль\Desktop\LABS_OOP\Interface1\Interface1\obj\Debug\Interface1.csproj.SuggestedBindingRedirects.cache
+C:\Users\Наиль\Desktop\LABS_OOP\Interface1\Interface1\obj\Debug\Interface1.Form1.resources
+C:\Users\Наиль\Desktop\LABS_OOP\Interface1\Interface1\obj\Debug\Interface1.Properties.Resources.resources
+C:\Users\Наиль\Desktop\LABS_OOP\Interface1\Interface1\obj\Debug\Interface1.csproj.GenerateResource.cache
+C:\Users\Наиль\Desktop\LABS_OOP\Interface1\Interface1\obj\Debug\Interface1.csproj.CoreCompileInputs.cache
+C:\Users\Наиль\Desktop\LABS_OOP\Interface1\Interface1\obj\Debug\Interface1.exe
+C:\Users\Наиль\Desktop\LABS_OOP\Interface1\Interface1\obj\Debug\Interface1.pdb
+C:\Users\Наиль\Desktop\LABS_OOP\Interface1\Interface1\obj\Debug\Interface1.Form2.resources
+C:\Users\Наиль\Desktop\LABS_OOP\Interface1\Interface1\obj\Debug\Interface1.Form3.resources
+C:\Users\Наиль\Desktop\LABS_OOP\Interface1\Interface1\obj\Debug\Interface1.Form4.resources
+C:\Users\Наиль\Desktop\LABS_OOP\Interface1\Interface1\obj\Debug\Interface1.Form5.resources
+C:\Users\Наиль\Desktop\LABS_OOP\Interface1\Interface1\obj\Debug\Interface1.Form6.resources
+C:\Users\Наиль\Desktop\Что-то важное\Учеба\LABS_OOP\Interface1\Interface1\bin\Debug\Interface1.exe.config
+C:\Users\Наиль\Desktop\Что-то важное\Учеба\LABS_OOP\Interface1\Interface1\bin\Debug\Interface1.exe
+C:\Users\Наиль\Desktop\Что-то важное\Учеба\LABS_OOP\Interface1\Interface1\bin\Debug\Interface1.pdb
+C:\Users\Наиль\Desktop\Что-то важное\Учеба\LABS_OOP\Interface1\Interface1\obj\Debug\Interface1.csproj.AssemblyReference.cache
+C:\Users\Наиль\Desktop\Что-то важное\Учеба\LABS_OOP\Interface1\Interface1\obj\Debug\Interface1.csproj.SuggestedBindingRedirects.cache
+C:\Users\Наиль\Desktop\Что-то важное\Учеба\LABS_OOP\Interface1\Interface1\obj\Debug\Interface1.Form1.resources
+C:\Users\Наиль\Desktop\Что-то важное\Учеба\LABS_OOP\Interface1\Interface1\obj\Debug\Interface1.Form2.resources
+C:\Users\Наиль\Desktop\Что-то важное\Учеба\LABS_OOP\Interface1\Interface1\obj\Debug\Interface1.Form3.resources
+C:\Users\Наиль\Desktop\Что-то важное\Учеба\LABS_OOP\Interface1\Interface1\obj\Debug\Interface1.Form4.resources
+C:\Users\Наиль\Desktop\Что-то важное\Учеба\LABS_OOP\Interface1\Interface1\obj\Debug\Interface1.Form5.resources
+C:\Users\Наиль\Desktop\Что-то важное\Учеба\LABS_OOP\Interface1\Interface1\obj\Debug\Interface1.Form6.resources
+C:\Users\Наиль\Desktop\Что-то важное\Учеба\LABS_OOP\Interface1\Interface1\obj\Debug\Interface1.Properties.Resources.resources
+C:\Users\Наиль\Desktop\Что-то важное\Учеба\LABS_OOP\Interface1\Interface1\obj\Debug\Interface1.csproj.GenerateResource.cache
+C:\Users\Наиль\Desktop\Что-то важное\Учеба\LABS_OOP\Interface1\Interface1\obj\Debug\Interface1.csproj.CoreCompileInputs.cache
+C:\Users\Наиль\Desktop\Что-то важное\Учеба\LABS_OOP\Interface1\Interface1\obj\Debug\Interface1.exe
+C:\Users\Наиль\Desktop\Что-то важное\Учеба\LABS_OOP\Interface1\Interface1\obj\Debug\Interface1.pdb
+C:\Users\Basyr\Desktop\Что-то важное\Учеба\LABS_OOP\Interface1\Interface1\bin\Debug\Interface1.exe.config
+C:\Users\Basyr\Desktop\Что-то важное\Учеба\LABS_OOP\Interface1\Interface1\bin\Debug\Interface1.exe
+C:\Users\Basyr\Desktop\Что-то важное\Учеба\LABS_OOP\Interface1\Interface1\bin\Debug\Interface1.pdb
+C:\Users\Basyr\Desktop\Что-то важное\Учеба\LABS_OOP\Interface1\Interface1\obj\Debug\Interface1.csproj.AssemblyReference.cache
+C:\Users\Basyr\Desktop\Что-то важное\Учеба\LABS_OOP\Interface1\Interface1\obj\Debug\Interface1.csproj.SuggestedBindingRedirects.cache
+C:\Users\Basyr\Desktop\Что-то важное\Учеба\LABS_OOP\Interface1\Interface1\obj\Debug\Interface1.Form1.resources
+C:\Users\Basyr\Desktop\Что-то важное\Учеба\LABS_OOP\Interface1\Interface1\obj\Debug\Interface1.Form2.resources
+C:\Users\Basyr\Desktop\Что-то важное\Учеба\LABS_OOP\Interface1\Interface1\obj\Debug\Interface1.Form3.resources
+C:\Users\Basyr\Desktop\Что-то важное\Учеба\LABS_OOP\Interface1\Interface1\obj\Debug\Interface1.Form4.resources
+C:\Users\Basyr\Desktop\Что-то важное\Учеба\LABS_OOP\Interface1\Interface1\obj\Debug\Interface1.Form5.resources
+C:\Users\Basyr\Desktop\Что-то важное\Учеба\LABS_OOP\Interface1\Interface1\obj\Debug\Interface1.Form6.resources
+C:\Users\Basyr\Desktop\Что-то важное\Учеба\LABS_OOP\Interface1\Interface1\obj\Debug\Interface1.Properties.Resources.resources
+C:\Users\Basyr\Desktop\Что-то важное\Учеба\LABS_OOP\Interface1\Interface1\obj\Debug\Interface1.csproj.GenerateResource.cache
+C:\Users\Basyr\Desktop\Что-то важное\Учеба\LABS_OOP\Interface1\Interface1\obj\Debug\Interface1.csproj.CoreCompileInputs.cache
+C:\Users\Basyr\Desktop\Что-то важное\Учеба\LABS_OOP\Interface1\Interface1\obj\Debug\Interface1.exe
+C:\Users\Basyr\Desktop\Что-то важное\Учеба\LABS_OOP\Interface1\Interface1\obj\Debug\Interface1.pdb
+C:\Users\Basyr\Desktop\Диплом\Interface1\Interface1\bin\Debug\Interface1.exe.config
+C:\Users\Basyr\Desktop\Диплом\Interface1\Interface1\bin\Debug\Interface1.exe
+C:\Users\Basyr\Desktop\Диплом\Interface1\Interface1\bin\Debug\Interface1.pdb
+C:\Users\Basyr\Desktop\Диплом\Interface1\Interface1\obj\Debug\Interface1.csproj.AssemblyReference.cache
+C:\Users\Basyr\Desktop\Диплом\Interface1\Interface1\obj\Debug\Interface1.csproj.SuggestedBindingRedirects.cache
+C:\Users\Basyr\Desktop\Диплом\Interface1\Interface1\obj\Debug\Interface1.Main.resources
+C:\Users\Basyr\Desktop\Диплом\Interface1\Interface1\obj\Debug\Interface1.Form2.resources
+C:\Users\Basyr\Desktop\Диплом\Interface1\Interface1\obj\Debug\Interface1.GetPoints.resources
+C:\Users\Basyr\Desktop\Диплом\Interface1\Interface1\obj\Debug\Interface1.InfoPoints.resources
+C:\Users\Basyr\Desktop\Диплом\Interface1\Interface1\obj\Debug\Interface1.InfoLocation.resources
+C:\Users\Basyr\Desktop\Диплом\Interface1\Interface1\obj\Debug\Interface1.InfoEquipment.resources
+C:\Users\Basyr\Desktop\Диплом\Interface1\Interface1\obj\Debug\Interface1.Properties.Resources.resources
+C:\Users\Basyr\Desktop\Диплом\Interface1\Interface1\obj\Debug\Interface1.csproj.GenerateResource.cache
+C:\Users\Basyr\Desktop\Диплом\Interface1\Interface1\obj\Debug\Interface1.csproj.CoreCompileInputs.cache
+C:\Users\Basyr\Desktop\Диплом\Interface1\Interface1\obj\Debug\Interface1.exe
+C:\Users\Basyr\Desktop\Диплом\Interface1\Interface1\obj\Debug\Interface1.pdb
+C:\Users\Basyr\Desktop\Диплом\Interface1\Interface1\obj\Debug\Interface1.Launch.resources
+C:\Users\Basyr\Desktop\Диплом\Interface1\Interface1\obj\Debug\Interface1.CoordinatesPoints.resources
+C:\Users\Basyr\Desktop\Диплом\Interface1\Interface1\obj\Debug\Interface1.csproj.CopyComplete
+C:\Users\ArthurPC\Downloads\rerw\Interface1\Interface1\obj\Debug\Interface1.csproj.AssemblyReference.cache
+C:\Users\ArthurPC\Downloads\rerw\Interface1\Interface1\obj\Debug\Interface1.csproj.SuggestedBindingRedirects.cache
+C:\Users\ArthurPC\Downloads\rerw\Interface1\Interface1\obj\Debug\Interface1.CoordinatesPoints.resources
+C:\Users\ArthurPC\Downloads\rerw\Interface1\Interface1\obj\Debug\Interface1.Launch.resources
+C:\Users\ArthurPC\Downloads\rerw\Interface1\Interface1\obj\Debug\Interface1.Main.resources
+C:\Users\ArthurPC\Downloads\rerw\Interface1\Interface1\obj\Debug\Interface1.Form2.resources
+C:\Users\ArthurPC\Downloads\rerw\Interface1\Interface1\obj\Debug\Interface1.GetPoints.resources
+C:\Users\ArthurPC\Downloads\rerw\Interface1\Interface1\obj\Debug\Interface1.InfoPoints.resources
+C:\Users\ArthurPC\Downloads\rerw\Interface1\Interface1\obj\Debug\Interface1.InfoLocation.resources
+C:\Users\ArthurPC\Downloads\rerw\Interface1\Interface1\obj\Debug\Interface1.InfoEquipment.resources
+C:\Users\ArthurPC\Downloads\rerw\Interface1\Interface1\obj\Debug\Interface1.Properties.Resources.resources
+C:\Users\ArthurPC\Downloads\rerw\Interface1\Interface1\obj\Debug\Interface1.csproj.GenerateResource.cache
+C:\Users\ArthurPC\Downloads\rerw\Interface1\Interface1\obj\Debug\Interface1.csproj.CoreCompileInputs.cache
+C:\Users\ArthurPC\Downloads\rerw\Interface1\Interface1\obj\Debug\Interface1.exe
+C:\Users\ArthurPC\Downloads\rerw\Interface1\Interface1\obj\Debug\Interface1.pdb
+C:\Users\ArthurPC\Downloads\rerw\Interface1\Interface1\bin\Debug\Interface1.exe.config
+C:\Users\ArthurPC\Downloads\rerw\Interface1\Interface1\bin\Debug\Interface1.exe
+C:\Users\ArthurPC\Downloads\rerw\Interface1\Interface1\bin\Debug\Interface1.pdb
+C:\Users\ArthurPC\Downloads\rerw\Interface1\Interface1\obj\Debug\Interface1.csproj.CopyComplete
